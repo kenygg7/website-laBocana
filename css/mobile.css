@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  .hero, .benefits, .mentions{
+    display: inherit;
+  }
+  .hero{
+    padding: 8%;
+  }
+  #box2{
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .titleBocana{
+    padding: 8%;
+  }
+  #benefitsHeader{
+    padding: 0 8%;
+  }
+  .mentions{
+    margin: auto;
+    /*padding: 0 30px;*/
+  }
+  .mention{
+    margin: auto;
+  }
+  /**/
+  
+}

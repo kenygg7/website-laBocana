@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La Bocana</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<!-- ------------------------------ Empieza barra de navegacion -->
+	<nav>
+		<a href="index.html">
+			<figure class="containerLogoBocana">
+				<img src="media/logo_blanco.svg" class="logoBocana" alt="Logotipo La Bocana">
+			</figure>
+		</a>
+		<div class="optionsNav">
+			<ul>
+				<li><a href="faqs.html">Faqs</a></li>
+				<li><a href="products.html">Productos y descripción</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="modulo_pago">
+					<figure class="modulo_pago_img">
+						<img src="media/product1.jpg" alt="">	
+					</figure>
+					<h4>red velvet & nutella</h4>
+					<p>Galleta con trozos y chips de chocolate con Nutella en el centro y escencia de naranja.
+					<br>Elaboradas con avena y leche de almendras.</p>
+					<div class="precio">
+						<p>$125.00 MXN</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="modulo_pago">
+					<form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3ZLBWZQZYZ3E2" method="post" target="_blank">
+						<label for="name">Nombre</label>
+						<br>
+						<input type="text" placeholder="" class="data" id="name">
+						<br>
+						<br>
+						<label for="email">Correo Electrónico</label>
+						<br>
+						<input type="text" class="data" id="email">
+						<br>
+						<br>
+						<label for="phone">Telefono</label>
+						<br>
+						<input type="text" class="data" id="phone">	
+						<br><br>
+						<div class="containerBotonPago">
+							<input id="botonPago" type="submit" class="boton" name="submit" value="Confirmar Pago">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

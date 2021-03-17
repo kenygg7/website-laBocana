@@ -1,0 +1,271 @@
+/*------------------------------Variables*/
+:root{
+	--mainColor: #552702;
+	--second-color: #A57D51;
+	--thirdColor: #C17F49;
+	--fourthColor: #D7B991;
+	--background-color: white;
+	--black-color:#313337;
+	--mainFont: Domine;
+	--mainFontSize: 35pt;
+	--secondFont: Roboto;
+	--secondFontSize: 15pt;
+	--thirdFontSize: 12pt;
+	--box:0px 0 2px 1px #b2b1b7;
+}
+/*------------------------------Variables*/
+
+/*--------------------------------Etiquetas generales*/
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	color: var(--black-color);
+	background-color: var(--backgroundColor);
+}
+nav{
+	font-family: var(--secondFont);
+	font-size: var(--secondFontSize);
+	height: 55px;
+	background-color: var(--mainColor);
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+}
+/*--------------------------------Etiquetas generales*/
+/*---------------------------------------------NavBar*/
+.containerLogoBocana{
+	margin: 0;
+	padding: 15px;
+}
+.logoBocana{
+	max-width: 120px;
+}
+.optionsNav ul{
+	list-style: none;
+	display: flex;
+}
+.optionsNav a{
+	text-decoration: none;
+	color: black;
+	padding-right: 15px;
+	color: white;
+}
+.optionsNav a:hover{
+	color: gray;
+}
+/*---------------------------------------------endNavBar*/
+/*---------------------------------------------beginHero*/
+.titleBocana{
+	text-align: center;
+	font-family: var(--mainFont);
+	font-size: var(--mainFontSize);
+	margin-top: 0;
+	padding-top: 80px;
+	margin-bottom: 0; 
+	background-color: #f1ebe5;
+}
+.hero{
+	display: flex;
+	justify-content: center;
+	padding: 15%;
+	padding-top: 45px;
+	background-color: #f1ebe5;
+}
+.box{
+	background-color: var(--backgroundColor);
+	width: 410px;
+	text-align: center;
+	border: solid 2px var(--mainColor);
+	border-radius: 8px;
+	padding-bottom: 35px;
+}
+#box1{
+	margin-right: 20px;		
+}
+#box2{
+	margin-left: 20px;	
+}
+.containerProduct{
+	margin-top: 30px;
+}
+.containerProduct img{
+	max-height: 150px;
+	border-radius: 100%;
+}
+.containerText p{
+	font-family: var(--seconfFont);
+	font-size: var(--secondFontSize);
+	text-align: center;
+	padding: 20px;
+	/*margin: 15px;*/
+	min-height: 70px;
+}
+.boton{
+	min-width: 115px;
+	height: 45px;
+	/*margin-bottom: 35px;*/
+	background-color: var(--fourthColor);
+	color: var(--mainColor);
+	font-family: var(--secondFont);
+	font-size: var(--thirdFontSize); 
+	border: none;
+	box-shadow: 0 0 2px var(--mainColor);
+	cursor: pointer;
+}
+.containerBotonPago{
+	text-align: center;
+	padding: 20px;
+}
+.precio{
+	margin: auto;
+	padding: 1%;
+	min-width: 15px;
+	max-width: 150px;
+	height: 45px;
+	background-color: var(--fourthColor);
+	color: var(--mainColor);
+	font-family: var(--secondFont);
+	font-size: var(--thirdFontSize);
+	box-shadow: 0 0 2px var(--mainColor);
+}
+.precio p{
+
+}
+
+/*---------------------------------------------endsHero*/
+/*---------------------------------------------BeginBenefitts*/
+.benefits{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	background-color: white;
+	padding: 9%;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.benefit figure{
+	text-align: center;
+	margin: 0;
+	/*max-height: 150px;*/
+	/*max-width: 150px;*/
+}
+.benefit img{
+	object-fit: cover;
+	max-height: 150px;
+	border-radius: 100%;
+}
+.benefit p{
+	padding: 10px;
+	margin-bottom: 0;
+	font-size: var(--thirdFontSize);
+	font-family: var(--mainFont);
+}
+#benefitsHeader{
+	text-align: center;
+	padding-top: 5%;
+	font-size: var(--mainFontSize);
+	font-family: var(--mainFont);
+}
+/*-----------------------------------------------Mentions*/
+.mentions{
+	padding-top: 0px;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+}
+#mentionTitle{
+	text-align: center;
+	margin: 0;
+	padding-top: 5%;
+	padding-bottom: 8%;
+	background-color: white;
+	/*padding-bottom: 50px;*/
+	font-family: var(--mainFont);
+	font-size: var(--mainFontSize);
+}
+.mention figure{
+	margin: 0;
+	width: inherit;
+	max-height: 145px;
+	text-align: center;
+}
+.mention{
+	width: 335px;
+	max-height: 335px;
+	margin-bottom: 50px;
+	box-shadow: 0 0 3px black;
+}
+.mention img{
+	object-fit: cover;
+	max-height: inherit;
+	width: inherit;
+}
+.containerText h3{
+	margin: 0;
+	padding: 10px;
+}
+.containerText p{
+	margin-top: 5px;
+	text-align: left;
+}
+/*-------------------------------------*/
+form{
+	text-align: left;
+	font-size: var(--thirdFontSize);
+	display: block;
+}
+.data{
+	width: 100%;
+	height: 35px;
+	border-radius: 3px;
+	/*border: solid 1px var(--black-color);*/
+	box-sizing: border-box;
+}
+.modulo_pago{
+	background-color: var(--background-color);
+	box-shadow: var(--box);
+	padding: 20px;
+}
+.modulo_pago_img{
+	max-width: 150px;
+	width: 100%;
+	margin: auto;
+}
+.modulo_pago_img img{
+	width: 150px;
+}
+.modulo_pago .boton{
+	margin-top: 10px;
+}
+#botonPago{
+	text-align: center;
+}
+#mailPedidos, #productosEnlace{
+	font-family: var(--secondFont);
+	font-size: var(--thirdFontSize);
+	text-decoration: none;
+	text-transform: lowercase;
+	padding: 0;
+}
+/*---------------------------------------------beginFooter*/
+footer{
+	font-family: var(--secondFont);
+	color: white;
+	height: 100px;
+	background-color: var(--mainColor);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+.contacto li{
+	list-style: none;
+}
+.info p{
+	text-align: center;
+}
+.info a{
+	color: white;
+	text-decoration: none;
+}
+/*---------------------------------------------endsFooter*/
